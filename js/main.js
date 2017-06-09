@@ -1,4 +1,4 @@
-// JavaScript Document//jQuery is required to run this code
+//jQuery is required to run this code
 $( document ).ready(function() {
 
     scaleVideoContainer();
