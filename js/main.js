@@ -61,3 +61,12 @@ function scaleBannerVideoSize(element){
 
     });
 }
+// ----- keep password field and dummy text field in sync
+$('input[type=password]').keyup(function(){
+  var elText = $(this).val();
+  $('.passText').val(elText);
+});
+$('.passText').keyup(function(){
+  var elText = $(this).val();
+  $('input[type=password]').val(elText);
+});
