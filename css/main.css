@@ -28,18 +28,18 @@ html, body{
 /* HEADER */
 
 header nav {
-   padding:.5em 0 1em 0;
+   padding:.5em 0 1em 0
  }
 header nav ul > li {
    list-style-type: none;
    display: inline-block;
-   margin:2px 20px 0 -5px;
+   margin:2px 20px 0 -5px
  }
  header nav ul > li > a.btn-left {
    padding:7px 20px;
 	color: #3498d8 !important;
 	 border: 2px solid #3498d8;
-	 border-radius: 4px;
+	 border-radius: 4px
  }
  header nav ul > li > a.btn-left:hover {
    background:#3498d8;
@@ -56,7 +56,7 @@ header nav ul > li {
  header nav ul > li > a.btn-right:hover {
 	 color:#ffffff !important;
 	 background:#246a97;
-	 border: 2px solid #246a97;
+	 border: 2px solid #246a97
  }
 header nav ul > li, a{
 	text-decoration:none
@@ -79,6 +79,135 @@ header nav ul > li, a{
 	width:130px;
 	margin: 4px 0 0 20px
 }
+
+.right-header ul{
+	padding:0
+}
+
+@media screen and (max-width:1300px){
+.video-container .title-container{
+		top:20% !important
+}
+}
+@media screen and (max-width:1125px){
+.video-container .title-container{
+		top:14% !important
+}
+}
+@media screen and (max-width:1125px){
+.video-container .title-container{
+		top:30% !important
+}
+}
+@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 1366px) 
+and (orientation : portrait){
+.video-container .title-container{
+		top:9% !important
+}
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+	and (orientation : landscape){
+.video-container .title-container{
+		top:17% !important
+}
+}
+@media only screen 
+and (min-device-width : 480px) 
+and (max-device-width : 750px) 
+and (orientation : landscape){
+.video-container .title-container{
+		top:36% !important
+}
+.title-container h1 {
+    font-size: 34px !important
+		}
+.title-container p {
+    font-size: 16px !important;
+    line-height: 24px !important;
+}
+.signupbtn {
+	display:none !important
+}
+.emailinput {
+	display:none !important
+}
+.passwordinput {
+	display:none
+}
+.signupbtn {
+	display:none !important
+}
+.fb-signup-btn{
+	display:none !important
+
+}
+.tw-signup-btn{
+	display:none !important
+}
+	.divider{
+		display:none !important
+	}
+}
+@media screen and (max-width:420px){
+.site-logo {
+	width:100px;
+	margin: 10px 0 0 10px
+	}
+	header nav ul > li > a.btn-right {
+    padding: 7px 10px
+	}
+	header nav ul > li > a.btn-left {
+    padding: 7px 10px
+	}
+	header nav ul > li {
+    margin: 3px 10px 0 -5px
+	}
+.video-container .title-container{
+		top:26% !important
+	}
+.title-container h1 {
+    font-size: 26px !important
+		}
+.title-container p {
+    font-size: 16px !important;
+    line-height: 24px !important
+		}
+.emailinput {
+	font-size:14px;
+    margin: 10px 0 20px 0 !important;
+    width: 285px !important;
+}
+.passwordinput {
+	font-size:14px;
+    width: 285px !important;
+	margin: 0 0 0 5px;
+}
+.signupbtn {
+    width: 298px !important;
+	font-size:14px;
+    margin-top: 20px !important
+}
+.fb-signup-btn{
+	width: 135px !important;
+	height:40px;
+	font-size:14px;
+	margin:0 20px 20px 0 !important
+
+}
+.tw-signup-btn{
+	width: 135px !important;
+	margin-left: 0 !important;
+	font-size:14px
+}
+.sc-text{
+	display:none
+	}
+}
+	
 .left-header{
 	display:block;
 	float:left
@@ -86,6 +215,55 @@ header nav ul > li, a{
 .right-header{
 	display:block;
 	float:right
+}
+@media screen and (max-width:375px){
+.video-container .title-container{
+		top:22% !important
+}
+}
+@media screen and (max-width:320px){
+.video-container .title-container{
+		top:16% !important
+}
+.title-container h1 {
+    font-size: 22px !important
+		}
+.title-container p {
+    font-size: 13px !important;
+    line-height: 20px !important;
+	width: 96%;
+	margin: 0 0 10px 0
+}
+.signupbtn {
+    margin-bottom: 10px !important
+}
+.emailinput {
+	font-size:14px;
+    margin: 10px 0 20px 0 !important;
+    width: 225px !important;
+}
+.passwordinput {
+	font-size:14px;
+    width: 225px !important;
+	margin: 0 0 0 5px;
+}
+.signupbtn {
+    width: 238px !important;
+	font-size:14px;
+    margin-top: 20px !important
+}
+.fb-signup-btn{
+	width: 105px !important;
+	height:40px;
+	font-size:14px;
+	margin:0 20px 20px 0 !important
+
+}
+.tw-signup-btn{
+	width: 105px !important;
+	margin-left: 0 !important;
+	font-size:14px
+}
 }
 
 /* VIDEO COVER */
@@ -103,7 +281,6 @@ header nav ul > li, a{
 }
 .video-container {
 	position: relative;
-	display:block;
 	bottom: 0%;
 	left: 0%;
 	height: 100%;
@@ -130,7 +307,6 @@ header nav ul > li, a{
 
 .video-container .title-container {
 	z-index: 1000;
-	display:block;
 	position: absolute;
 	top: 25%;
 	width: 100%;
@@ -155,15 +331,13 @@ header nav ul > li, a{
 }
 
 .emailinput{
-	/* width: 20%; */
 	height:40px;
 	border: 1px solid #979797;
 	border-radius: 4px;
 	background:#fff;
 	padding-left:10px;
 	margin:0 20px 0 5px;
-	/* min-width: 250px; */
-	width: 250px;
+	width: 250px
 }
 .passwordinput{
 	width: 250px;
@@ -171,11 +345,9 @@ header nav ul > li, a{
 	border: 1px solid #979797;
 	border-radius: 4px;
 	background:#fff;
-	padding-left:10px;
+	padding-left:10px
 }
 .signupbtn{
-	/* width:43.7%; */
-	/* min-width: 250px; */
 	width: 550px;
 	height:40px;
 	margin-top:25px;
@@ -183,7 +355,7 @@ header nav ul > li, a{
 	color:#ffffff !important;
 	border: 2px solid #3498d8;
 	border-radius: 4px;
-	border-bottom:2px solid #246a97;
+	border-bottom:2px solid #246a97
 }
 .signupbtn:hover{
 	background: #246a97;
@@ -193,18 +365,17 @@ header nav ul > li, a{
 }
 .fb-signup-btn{
 	display:inline-block;
-	/* width:20.7%; */
-	height:40px;
+	height:36px;
 	color:#fff;
 	background: #3b5998;
 	margin-right:20px;
 	border-radius: 4px;
 	border: 2px solid #3b5998;
 	border-bottom:2px solid #293e6a;
-	line-height: 40px;
+	line-height: 38px;
 	margin-left:-1px;
 	cursor:pointer;
-	width: 255px;
+	width: 255px
 }
 .fb-signup-btn:hover{
 	background: #293e6a;
@@ -212,14 +383,13 @@ header nav ul > li, a{
 }
 .tw-signup-btn{
 	display:inline-block;
-	/* width:20.7%; */
-	height:40px;
+	height:36px;
 	color:#fff;
 	background: #4099ff;
 	border-radius:4px;
 	border: 2px solid #4099ff;
 	border-bottom:2px solid #2c6bb2;
-	line-height: 40px;
+	line-height: 38px;
 	margin-left:6px;
 	cursor:pointer;
 	width: 255px;
@@ -248,6 +418,6 @@ header nav ul > li, a{
    float:left;
    position:relative;
    min-height: 1px;
-   margin:0 2% 20px;
+   margin:0 2% 20px
  }
 
